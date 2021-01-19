@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <title>Meal Finder</title>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <h1>Meal Finder</h1>
+      <div class="form-container">
+        <form class="form">
+          <input type="text" placeholder="Enter keyword" id="meal-input" />
+          <button type="submit" id="search-button">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+    <h3 class="search-result" id="search-result"></h3>
+    <div class="meals-container" id="meals-container"></div>
+    <div class="recipe-container hide" id="recipe-container"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
